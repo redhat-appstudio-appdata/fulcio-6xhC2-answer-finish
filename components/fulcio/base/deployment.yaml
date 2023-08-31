@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: fulcio
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/securesign-tenant/fulcio/fulcio@sha256:2b4581a28027193b690b39b56d2b734812f39b794b6ada3508ec21ec2d3c2a91
         imagePullPolicy: Always
         name: container-image
         ports:
