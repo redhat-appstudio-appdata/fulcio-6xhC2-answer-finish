@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: fulcio
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/securesign-tenant/fulcio/fulcio@sha256:2b4581a28027193b690b39b56d2b734812f39b794b6ada3508ec21ec2d3c2a91
+        name: container-image
+        resources: {}
+status: {}
