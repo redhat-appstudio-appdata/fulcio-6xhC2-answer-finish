@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/securesign-tenant/fulcio/fulcio@sha256:2b4581a28027193b690b39b56d2b734812f39b794b6ada3508ec21ec2d3c2a91
+      - image: quay.io/redhat-user-workloads/securesign-tenant/fulcio/fulcio@sha256:57f3f1c8eb0c2efe6b75a57ef5eeb8babc0e73b5dde477d08c9bed5abba68966
         name: container-image
         resources: {}
 status: {}
